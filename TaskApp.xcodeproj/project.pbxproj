@@ -15,6 +15,10 @@
 		D1E3886125AF465D009568F7 /* TaskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1E3885F25AF465D009568F7 /* TaskApp.xcdatamodeld */; };
 		D1E3886C25AF465E009568F7 /* TaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3886B25AF465E009568F7 /* TaskAppTests.swift */; };
 		D1E3887725AF465E009568F7 /* TaskAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3887625AF465E009568F7 /* TaskAppUITests.swift */; };
+		D1E3888A25AF4759009568F7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3888925AF4759009568F7 /* Home.swift */; };
+		D1E3888F25AF4787009568F7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3888E25AF4787009568F7 /* HomeViewModel.swift */; };
+		D1E3889425AF484A009568F7 /* NewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3889325AF484A009568F7 /* NewDataView.swift */; };
+		D1E3889925AF4ADC009568F7 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3889825AF4ADC009568F7 /* DateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D1E3887225AF465E009568F7 /* TaskAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E3887625AF465E009568F7 /* TaskAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppUITests.swift; sourceTree = "<group>"; };
 		D1E3887825AF465E009568F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E3888925AF4759009568F7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D1E3888E25AF4787009568F7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D1E3889325AF484A009568F7 /* NewDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDataView.swift; sourceTree = "<group>"; };
+		D1E3889825AF4ADC009568F7 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		D1E3885325AF465B009568F7 /* TaskApp */ = {
 			isa = PBXGroup;
 			children = (
+				D1E3888825AF4743009568F7 /* ViewModel */,
+				D1E3888725AF473C009568F7 /* View */,
 				D1E3885425AF465B009568F7 /* TaskAppApp.swift */,
 				D1E3885625AF465B009568F7 /* ContentView.swift */,
 				D1E3885825AF465D009568F7 /* Assets.xcassets */,
@@ -134,6 +144,24 @@
 				D1E3887825AF465E009568F7 /* Info.plist */,
 			);
 			path = TaskAppUITests;
+			sourceTree = "<group>";
+		};
+		D1E3888725AF473C009568F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1E3888925AF4759009568F7 /* Home.swift */,
+				D1E3889325AF484A009568F7 /* NewDataView.swift */,
+				D1E3889825AF4ADC009568F7 /* DateButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1E3888825AF4743009568F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1E3888E25AF4787009568F7 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E3886125AF465D009568F7 /* TaskApp.xcdatamodeld in Sources */,
+				D1E3888F25AF4787009568F7 /* HomeViewModel.swift in Sources */,
 				D1E3885E25AF465D009568F7 /* Persistence.swift in Sources */,
+				D1E3888A25AF4759009568F7 /* Home.swift in Sources */,
 				D1E3885725AF465B009568F7 /* ContentView.swift in Sources */,
+				D1E3889925AF4ADC009568F7 /* DateButton.swift in Sources */,
 				D1E3885525AF465B009568F7 /* TaskAppApp.swift in Sources */,
+				D1E3889425AF484A009568F7 /* NewDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
